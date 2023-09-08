@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher_Lambda", "Publisher_Lambda\src\Publisher_Lambda\Publisher_Lambda.csproj", "{8900FC5A-B7B8-4B7A-9117-6BF7FCC8371E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer_Lambda", "Consumer_Lambda\src\Consumer_Lambda\Consumer_Lambda.csproj", "{A577DC42-D8CC-43A1-AE27-BE06DCDE6691}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8900FC5A-B7B8-4B7A-9117-6BF7FCC8371E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8900FC5A-B7B8-4B7A-9117-6BF7FCC8371E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8900FC5A-B7B8-4B7A-9117-6BF7FCC8371E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8900FC5A-B7B8-4B7A-9117-6BF7FCC8371E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A577DC42-D8CC-43A1-AE27-BE06DCDE6691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A577DC42-D8CC-43A1-AE27-BE06DCDE6691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A577DC42-D8CC-43A1-AE27-BE06DCDE6691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A577DC42-D8CC-43A1-AE27-BE06DCDE6691}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

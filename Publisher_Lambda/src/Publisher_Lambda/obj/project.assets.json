@@ -1,0 +1,270 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Amazon.Lambda.Core/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.Lambda.SQSEvents/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.202.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.200.36": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.202.4, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Lambda.Core/2.1.0": {
+      "sha512": "ok06UhfBZw6j6+PhiJR9C0EOMuJvnq8rMCHVkaFmPFrlI/q447ukwGZQKaAKqodV+MNTfpb/iPxjgUPVbSlVVw==",
+      "type": "package",
+      "path": "amazon.lambda.core/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "amazon.lambda.core.2.1.0.nupkg.sha512",
+        "amazon.lambda.core.nuspec",
+        "lib/net6.0/Amazon.Lambda.Core.dll",
+        "lib/net6.0/Amazon.Lambda.Core.xml",
+        "lib/netstandard2.0/Amazon.Lambda.Core.dll",
+        "lib/netstandard2.0/Amazon.Lambda.Core.xml"
+      ]
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.3.1": {
+      "sha512": "7dGGgikMlEz72rGqeDwQEIxq+O8RDEdR4GH2S7hfZ8uzv5lyWVDuP2urV6MyD6APJ2WVHRwJlV74bB+XJncQpw==",
+      "type": "package",
+      "path": "amazon.lambda.serialization.systemtextjson/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "amazon.lambda.serialization.systemtextjson.2.3.1.nupkg.sha512",
+        "amazon.lambda.serialization.systemtextjson.nuspec",
+        "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.xml",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.xml"
+      ]
+    },
+    "Amazon.Lambda.SQSEvents/2.1.0": {
+      "sha512": "a1xaCIuXDleJ8iRE3vHWWhtPqUiURmoQUS68INMEQmtfHr4wTz837TQZONo4cyubv5sZj78DDrYessZEzgFRGQ==",
+      "type": "package",
+      "path": "amazon.lambda.sqsevents/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.sqsevents.2.1.0.nupkg.sha512",
+        "amazon.lambda.sqsevents.nuspec",
+        "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.xml",
+        "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll",
+        "lib/netstandard2.0/Amazon.Lambda.SQSEvents.xml"
+      ]
+    },
+    "AWSSDK.Core/3.7.202.4": {
+      "sha512": "kPBCj/lbbwoyqwNFOf1rc/fAGETdtfwnqHcqxpgR/Zams19yaIyREVoJtJL25oXnFQBkJ1Qun5bDjP920b8gtA==",
+      "type": "package",
+      "path": "awssdk.core/3.7.202.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.202.4.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.SQS/3.7.200.36": {
+      "sha512": "I51v6X1rx7ZIXVdl9wHc7yJsZMyCz0vhwlHlYaHdMyLJ0MEkIlKhdyF1oBVH+f2nIwaxzRbNSb2R1IZv+I0qXQ==",
+      "type": "package",
+      "path": "awssdk.sqs/3.7.200.36",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SQS.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.sqs.3.7.200.36.nupkg.sha512",
+        "awssdk.sqs.nuspec",
+        "images/AWSLogo.png",
+        "lib/net35/AWSSDK.SQS.dll",
+        "lib/net35/AWSSDK.SQS.pdb",
+        "lib/net35/AWSSDK.SQS.xml",
+        "lib/net45/AWSSDK.SQS.dll",
+        "lib/net45/AWSSDK.SQS.pdb",
+        "lib/net45/AWSSDK.SQS.xml",
+        "lib/netcoreapp3.1/AWSSDK.SQS.dll",
+        "lib/netcoreapp3.1/AWSSDK.SQS.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SQS.xml",
+        "lib/netstandard2.0/AWSSDK.SQS.dll",
+        "lib/netstandard2.0/AWSSDK.SQS.pdb",
+        "lib/netstandard2.0/AWSSDK.SQS.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AWSSDK.SQS >= 3.7.200.36",
+      "Amazon.Lambda.Core >= 2.1.0",
+      "Amazon.Lambda.SQSEvents >= 2.1.0",
+      "Amazon.Lambda.Serialization.SystemTextJson >= 2.3.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/prakashkumar/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/prakashkumar/RiderProjects/Publisher_Lambda/Publisher_Lambda/src/Publisher_Lambda/Publisher_Lambda.csproj",
+      "projectName": "Publisher_Lambda",
+      "projectPath": "/Users/prakashkumar/RiderProjects/Publisher_Lambda/Publisher_Lambda/src/Publisher_Lambda/Publisher_Lambda.csproj",
+      "packagesPath": "/Users/prakashkumar/.nuget/packages/",
+      "outputPath": "/Users/prakashkumar/RiderProjects/Publisher_Lambda/Publisher_Lambda/src/Publisher_Lambda/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/prakashkumar/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "AWSSDK.SQS": {
+            "target": "Package",
+            "version": "[3.7.200.36, )"
+          },
+          "Amazon.Lambda.Core": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "Amazon.Lambda.SQSEvents": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "Amazon.Lambda.Serialization.SystemTextJson": {
+            "target": "Package",
+            "version": "[2.3.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Crossgen2.osx-arm64",
+            "version": "[6.0.21, 6.0.21]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

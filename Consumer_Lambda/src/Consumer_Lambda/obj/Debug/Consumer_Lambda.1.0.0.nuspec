@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Consumer_Lambda</id>
+    <version>1.0.0</version>
+    <authors>Consumer_Lambda</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="AWSSDK.SQS" version="3.7.200.36" exclude="Build,Analyzers" />
+        <dependency id="Amazon.Lambda.Core" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Amazon.Lambda.SQSEvents" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Amazon.Lambda.Serialization.SystemTextJson" version="2.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/prakashkumar/RiderProjects/Publisher_Lambda/Consumer_Lambda/src/Consumer_Lambda/bin/Debug/net6.0/Consumer_Lambda.runtimeconfig.json" target="lib/net6.0/Consumer_Lambda.runtimeconfig.json" />
+    <file src="/Users/prakashkumar/RiderProjects/Publisher_Lambda/Consumer_Lambda/src/Consumer_Lambda/bin/Debug/net6.0/Consumer_Lambda.dll" target="lib/net6.0/Consumer_Lambda.dll" />
+  </files>
+</package>
