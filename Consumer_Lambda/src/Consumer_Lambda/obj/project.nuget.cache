@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NqgDwFfdvcluN5ybTrrC+z9YvrdlZjaz1B3h06CXZwdNxZ8gx4Gz+tNTdxVwN8YYjE5DHs2JmkW4jYyQMvviEQ==",
+  "dgSpecHash": "42A1YWm35SwsLBedwYwyuH+2Yhsn8RKgbxMHQDHZhYXeUFkXbdcT6ib8kPnPsnjM/TZFVvTshTfge0N85i52gA==",
   "success": true,
   "projectFilePath": "/Users/prakashkumar/RiderProjects/Publisher_Lambda/Consumer_Lambda/src/Consumer_Lambda/Consumer_Lambda.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,9 @@
     "/Users/prakashkumar/.nuget/packages/amazon.lambda.sqsevents/2.1.0/amazon.lambda.sqsevents.2.1.0.nupkg.sha512",
     "/Users/prakashkumar/.nuget/packages/awssdk.core/3.7.202.4/awssdk.core.3.7.202.4.nupkg.sha512",
     "/Users/prakashkumar/.nuget/packages/awssdk.sqs/3.7.200.36/awssdk.sqs.3.7.200.36.nupkg.sha512",
-    "/Users/prakashkumar/.nuget/packages/microsoft.netcore.app.crossgen2.osx-arm64/6.0.21/microsoft.netcore.app.crossgen2.osx-arm64.6.0.21.nupkg.sha512"
+    "/Users/prakashkumar/.nuget/packages/microsoft.netcore.app.ref/6.0.26/microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "/Users/prakashkumar/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.26/microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "/Users/prakashkumar/.nuget/packages/microsoft.netcore.app.crossgen2.osx-arm64/6.0.26/microsoft.netcore.app.crossgen2.osx-arm64.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

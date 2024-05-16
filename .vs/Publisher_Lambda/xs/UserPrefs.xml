@@ -1,9 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Consumer_Lambda/src/Consumer_Lambda/Function.cs">
     <Files>
       <File FileName="Consumer_Lambda/src/Consumer_Lambda/Function.cs" Line="1" Column="1" />
@@ -12,7 +9,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Publisher_Lambda" expanded="True">
-            <Node name="Consumer_Lambda" expanded="True" selected="True">
+            <Node name="Consumer_Lambda" expanded="True">
               <Node name="Dependencies" expanded="True" />
             </Node>
           </Node>
@@ -20,5 +17,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>

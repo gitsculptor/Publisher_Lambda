@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Publisher_Lambda
 build_property.ProjectDir = /Users/prakashkumar/RiderProjects/Publisher_Lambda/Publisher_Lambda/src/Publisher_Lambda/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
